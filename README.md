@@ -1,4 +1,4 @@
-<div style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+<div style="background-color: #ffffff; padding: 10px; border-radius: 5px;"">
 <h1> Aula_POO_13-02-25</h1>
 <h3>Continuação da aula de orientção a objetos  <strong>Professor Carlos</strong></h3>
 <h2> Assuntos abordados anteriormente, no repositório encapsulamento *<strong>JAVA</strong> onde foram criados getters e setters para criar um primeiro objeto simples.</h2>
