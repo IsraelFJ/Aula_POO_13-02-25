@@ -53,7 +53,7 @@ public class Main {
             livro.setNumeroDePaginas(numeroDePaginas);
             livro.setPreco(preco);
 
-            // get entrega o parametro que recebel do set atraves da variavel global 
+            // get entrega o parametro que recebeu do set atraves da variavel global 
             System.out.println("Cadastrado pessoa: "+ pessoa.getNome());
             System.out.println("-----------------------------------");
             System.out.println("seu email de cadastro é E-mail: "+ pessoa.getEmail());
