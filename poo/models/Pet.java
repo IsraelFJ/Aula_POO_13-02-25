@@ -5,9 +5,16 @@ public class Pet {
     private String nomePet;
     private String raca;
     private String porte;
-    private String alimentação;
+    private String alimentacao;
     private int idadePet;
 
+    public Pet (String nomePet, String raca, String porte, String alimentacao, int idadePet){
+        this.nomePet = nomePet;
+        this.raca = raca;
+        this.porte = porte;
+        this.alimentacao = alimentacao;
+        this.idadePet = idadePet;
+    }
     
     public String getNomePet() {
         return nomePet;
@@ -27,11 +34,11 @@ public class Pet {
     public void setPorte(String porte) {
         this.porte = porte;
     }
-    public String getAlimentação() {
-        return alimentação;
+    public String getAlimentacao() {
+        return alimentacao;
     }
-    public void setAlimentação(String alimentação) {
-        this.alimentação = alimentação;
+    public void setAlimentacao(String alimentacao) {
+        this.alimentacao = alimentacao;
     }
     public int getIdadePet() {
         return idadePet;
