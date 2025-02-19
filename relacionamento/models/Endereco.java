@@ -3,12 +3,12 @@ package relacionamento.models;
 public class Endereco{
 
     private String logradouro;
-    private int numeroResidencia;
+    private String numeroResidencia;
     private String cidade;
 
     public Endereco(){}
     
-    public Endereco  (String logradouro, int numeroResidencia, String cidade) {
+    public Endereco  (String logradouro, String numeroResidencia, String cidade) {
         this.logradouro = logradouro;
         this.numeroResidencia = numeroResidencia;
         this.cidade = cidade;
@@ -22,11 +22,11 @@ public class Endereco{
         this.logradouro = logradouro;
     }
 
-    public int getNumeroResidencia() {
+    public String getNumeroResidencia() {
         return numeroResidencia;
     }
 
-    public void setNumeroResidencia(int numeroResidencia) {
+    public void setNumeroResidencia(String numeroResidencia) {
         this.numeroResidencia = numeroResidencia;
     }
 

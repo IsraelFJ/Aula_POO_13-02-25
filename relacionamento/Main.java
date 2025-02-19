@@ -4,11 +4,10 @@ import relacionamento.models.Endereco;
 public class Main{
     public static void main(String[] args) {
 
-       Endereco enderecoPrime = new Endereco("Rua F", 300, "Salvador") 
-       Cliente clientePrime = new Cliente("Cleitinho", "40", enderecoPrime);
+      Cliente clienteUm = new Cliente("Juaum", "120", 
+      new Endereco("rua b ","120","Salvador") );
 
-       System.out.println(clientePrime.toString());
-
+      System.out.println(clienteUm.toString());
 
     }
 }
