@@ -1,13 +1,16 @@
-import relacionamento.models.Cliente;
-import relacionamento.models.Endereco;
+import models.ContaBancaria;
+import models.EndenrecoFuncionario;
+import models.Funcionario;
 
 public class Main{
     public static void main(String[] args) {
 
-      Cliente clienteUm = new Cliente("Juaum", "120", 
-      new Endereco("rua b ","120","Salvador") );
+      Funcionario funcionario = new Funcionario("1234", "Roberto",
+      new EndenrecoFuncionario("Rua G", "123", "Salvador", "Bahia")
+      , "123456", "mail@mail",new ContaBancaria("Bradesco", "403", "654321",
+       "Fisica", "35.000", "50.000"));
 
-      System.out.println(clienteUm.toString());
+       System.out.println(funcionario.toString());
 
     }
 }
