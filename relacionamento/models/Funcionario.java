@@ -7,7 +7,7 @@ public class Funcionario {
     private String telefone;
     private String email;
     private ContaBancaria ContaBancaria;
-    private Sexo Sexo;
+    private Sexo sexo;
 
     public Funcionario(){}
 
@@ -20,7 +20,7 @@ public class Funcionario {
         this.telefone = telefone;
         this.email = email;
         ContaBancaria = contaBancaria;
-        Sexo = sexo;
+        this.sexo = sexo;
     }
 
     public String getCodigoFuncionario() {
@@ -71,23 +71,27 @@ public class Funcionario {
         ContaBancaria = contaBancaria;
     }
 
-    public ContaBancaria getSexo() {
-        return Sexo;
+    public Sexo getSexo() {
+        return sexo;
     }
 
     public void setSexo(Sexo sexo) {
-        Sexo = sexo;
+        this.sexo = sexo;
     }
-    
 
     @Override
     public String toString() {
         return "Funcionario [codigoFuncionario=" + codigoFuncionario + ", nomeFuncionario=" + nomeFuncionario
                 + ", EndenrecoFuncionario=" + EndenrecoFuncionario + ", telefone=" + telefone + ", email=" + email
-                + ", ContaBancaria=" + ContaBancaria + "Sexo= "+ sexo+"]";
+                + ", ContaBancaria=" + ContaBancaria + ", sexo=" + sexo + "]";
     }
-
-    
-    
+        
+        
+   
 
 }
+
+    
+    
+
+
