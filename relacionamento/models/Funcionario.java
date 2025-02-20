@@ -7,18 +7,20 @@ public class Funcionario {
     private String telefone;
     private String email;
     private ContaBancaria ContaBancaria;
+    private Sexo Sexo;
 
     public Funcionario(){}
 
     public Funcionario(String codigoFuncionario, String nomeFuncionario,
             models.EndenrecoFuncionario endenrecoFuncionario, String telefone, String email,
-            models.ContaBancaria contaBancaria) {
+            models.ContaBancaria contaBancaria, Sexo sexo) {
         this.codigoFuncionario = codigoFuncionario;
         this.nomeFuncionario = nomeFuncionario;
         EndenrecoFuncionario = endenrecoFuncionario;
         this.telefone = telefone;
         this.email = email;
         ContaBancaria = contaBancaria;
+        Sexo = sexo;
     }
 
     public String getCodigoFuncionario() {
@@ -69,11 +71,20 @@ public class Funcionario {
         ContaBancaria = contaBancaria;
     }
 
+    public ContaBancaria getSexo() {
+        return Sexo;
+    }
+
+    public void setSexo(Sexo sexo) {
+        Sexo = sexo;
+    }
+    
+
     @Override
     public String toString() {
         return "Funcionario [codigoFuncionario=" + codigoFuncionario + ", nomeFuncionario=" + nomeFuncionario
                 + ", EndenrecoFuncionario=" + EndenrecoFuncionario + ", telefone=" + telefone + ", email=" + email
-                + ", ContaBancaria=" + ContaBancaria + "]";
+                + ", ContaBancaria=" + ContaBancaria + "Sexo= "+ sexo+"]";
     }
 
     
