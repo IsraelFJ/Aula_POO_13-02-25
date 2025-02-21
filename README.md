@@ -4,4 +4,5 @@
     <h2 style="color: #000000;">Assuntos abordados anteriormente, no repositório encapsulamento <strong>JAVA</strong> onde foram criados getters e setters para criar um primeiro objeto simples.</h2>
     <p style="color: #000000;">13/02/2025 Abordamos conceitos de <strong>ENCAPSULAMENTO</strong>.</p>                         
     <p style="color: #000000;">19/02/2025 Abordamos conceitos de <strong>RELACIONAMENTO e ENUM</strong>.</p>
+      <p style="color: #000000;">20/02/2025 Abordamos conceitos de <strong>BRANCH</strong>.</p>
 </div>
