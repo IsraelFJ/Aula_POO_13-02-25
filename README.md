@@ -10,4 +10,5 @@
 </div>
 <div style="background-color: #ffffff; padding: 10px; border-radius: 5px;">
     <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Ícone JAVA" style="width: 200px; height: auto;">
+    <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="Ícone JAVA" style="width: 200px; height: auto;">
 </div>
