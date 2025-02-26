@@ -9,6 +9,8 @@
       <p style="color: #000000;">26/02/2025 Abordamos conceitos de <strong>GIT FLOW, CI/CD e DEVOPS</strong>.</p>
 </div>
 <div style="background-color: #ffffff; padding: 10px; border-radius: 5px;">
-    <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Ícone JAVA" style="width: 200px; height: auto;">
-    <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="Ícone JAVA" style="width: 200px; height: auto;">
+    <h3 style="color: #000000;">Linguagens e Ides utilizados.</h3>
+    <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Ícone JAVA" style="width: 100px; height: auto;">
+    <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000" alt="Ícone JAVA" style="width: 100px; height: auto;">
+    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="Ícone JAVA" style="width: 100px; height: auto;">
 </div>
