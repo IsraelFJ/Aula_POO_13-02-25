@@ -13,13 +13,13 @@ public class Diretor extends Funcionario implements Contratacao {
     @Override
     public String Admitir() {
         
-        return "Status - Admitido";
+        return "Status - Funcionario Admitido";
     }
 
     @Override
     public String Demitir() {
         
-        return "Status Demitido";
+        return "Status - Funcionario Demitido";
     }
 
     public Diretor(String nome, String dataNascimento, double salarioBase, Sexo sexo, Setor setor) {
