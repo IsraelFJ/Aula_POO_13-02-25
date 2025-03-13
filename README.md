@@ -10,7 +10,7 @@
       <p style="color: #000000;">26/02/2025 Abordamos conceitos de <strong>GIT FLOW, CI/CD e DEVOPS</strong>.</p>
       <p style="color: #000000;">27/02/2025 Abordamos conceitos de <strong>INTERFACE e POLIMORFISMO</strong>.</p>
       <p style="color: #000000;">06/03/2025 Revisamos conceitos de <strong>INTERFACE e POLIMORFISMO</strong>.</p>
-      <p style="color: #000000;">12/03/2025 abordamos conceitos de <strong>SPRING FRAME WORK</strong>. criada nova branch feature/spring</p>
+      <p style="color: #000000;">12/03/2025 abordamos conceitos de <strong>SPRING FRAME WORK, PAI REST</strong>. criada nova branch feature/spring</p>
 </div>
 <div style="background-color: #ffffff; padding: 10px; border-radius: 5px;">
     <h3 style="color: #000000;">Linguagens e Ides utilizados.</h3>
